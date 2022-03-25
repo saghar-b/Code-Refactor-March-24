@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* dont need to be a class */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +15,11 @@ header {
     color: #ffffff;
 }
 
-
+/* it can be by its own class */
 .seo {
     color: #d9dcd6;
 }
-
+/* replace the div to nav tag */
  nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,6 +45,7 @@ a {
 p {
     font-size: 16px;
 }
+/* clean the headers tags  */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -97,7 +98,8 @@ h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*  use left-div  class with the same attributes 
+instead if having multiple class with the same attributes */
 .left-div {
     margin-bottom: 32px;
     color: #ffffff;
@@ -108,6 +110,9 @@ h4 {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*  use .right-divs  class with the same attributes 
+instead if having multiple class with the same attributes */
 .right-divs {
     margin-bottom: 20px;
     padding: 50px;
@@ -122,15 +127,17 @@ h4 {
 }
 
 
-
+/* dont need to be a class */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    /* make the footer invisible */
     display: none;
+}
 
-/* not necessary */
+/* the classes below are not necessary */
 
 /* .benefit-brand {
     margin-bottom: 32px;
