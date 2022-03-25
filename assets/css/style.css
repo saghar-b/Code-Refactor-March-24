@@ -14,11 +14,6 @@ body {
     background-color: #d9dcd6;
 }
 
-
-/* it can be by its own class */
-.seo {
-    color: #d9dcd6;
-}
 /* replace the div to nav tag */
  nav {
     padding-top: 15px;
@@ -71,6 +66,12 @@ footer {
     /* make the footer invisible */
     display: none;
 }
+
+/* it can be by its own class */
+.seo {
+    color: #d9dcd6;
+}
+/* show the main top picture */
 .hero {
     height: 800px;
     width: 100%;
@@ -79,6 +80,7 @@ footer {
     background-size: cover;
     background-position: center;
 }
+
 
 .float-left {
     float: left;
@@ -89,13 +91,13 @@ footer {
     float: right;
     margin-left: 25px;
 }
-
+/* adjusting the common setting for the whole left box   */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* adjusting the common setting for the whole right section   */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -106,22 +108,24 @@ footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*  use left-div  class with the same attributes 
+/*  setting the 3 boxes on the lef attributes 
+use right-div  class with the same attributes 
 instead if having multiple class with the same attributes */
-.left-div {
+.right-div {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.left-div img {
+/* adjust hte images in the 3 lef boxes */
+.right-div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*  use .right-divs  class with the same attributes 
+/*  setting the 3 box on the right attributes
+use .left-divs  class with the same attributes 
 instead if having multiple class with the same attributes */
-.right-divs {
+.left-divs {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -129,8 +133,8 @@ instead if having multiple class with the same attributes */
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.right-divs img {
+/* adjust hte icons in the 3 right box */
+.left-divs img {
     max-height: 200px;
 }
 
